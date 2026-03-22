@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velora | Premium Content Platform</title>
+    <meta name="description"
+        content="Velora is a modern content platform featuring professional articles on technology, business, AI tools, entertainment, gaming, and fashion.">
+    <meta name="keywords" content="blog, technology, business, AI, fashion, gaming, articles">
+    <meta property="og:title" content="Velora | Premium Content Platform">
+    <meta property="og:description"
+        content="Discover insightful articles and trending topics across multiple categories on Velora.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://velora-demo.com">
+    <meta property="og:image"
+        content="https://images.unsplash.com/photo-1432821596592-e2c18b78144f?auto=format&fit=crop&w=1200&q=80">
+
+    <meta name="theme-color" content="#ff642d">
+    <link rel="canonical" href="https://velora-demo.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Velora<span>.</span></a>
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="nav-links" id="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+                <div class="nav-actions">
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+                    <a href="admin.html" class="btn btn-sm btn-outline">Log In</a>
+                    <a href="#" class="btn btn-sm btn-primary">Start Free Trial</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Semrush-style Hero -->
+        <section class="hero-tools">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Get measurable results from <span>online marketing</span></h1>
+                    <p class="hero-subtitle">Do SEO, content marketing, competitor research, PPC and social media
+                        marketing from just one platform.</p>
+
+                    <div class="search-box-wrap">
+                        <form class="hero-search-form"
+                            onsubmit="event.preventDefault(); window.location.href='domain-overview.html';">
+                            <input type="text" placeholder="Enter domain, keyword or URL" required>
+                            <button type="submit" class="btn btn-primary">Analyze <i
+                                    class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                        <div class="popular-searches">
+                            <span>Examples:</span>
+                            <a href="#">google.com</a>
+                            <a href="#">amazon.com</a>
+                            <a href="#">semrush.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dashboard Mockup Preview -->
+            <div class="dashboard-preview-container">
+                <div class="dashboard-mockup">
+                    <div class="mock-header">
+                        <div class="mock-dots"><span></span><span></span><span></span></div>
+                        <div class="mock-search">velora.com</div>
+                    </div>
+                    <div class="mock-body">
+                        <div class="mock-sidebar"></div>
+                        <div class="mock-main">
+                            <div class="mock-charts">
+                                <div class="mock-chart main-chart"></div>
+                                <div class="mock-chart-side">
+                                    <div class="mock-chart mini"></div>
+                                    <div class="mock-chart mini"></div>
+                                </div>
+                            </div>
+                            <div class="mock-stats">
+                                <span></span><span></span><span></span><span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Platform Stats -->
+        <section class="platform-overview">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">25B</div>
+                        <div class="stat-label">Keywords</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">800M</div>
+                        <div class="stat-label">Domains</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">142</div>
+                        <div class="stat-label">Geo Databases</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10M</div>
+                        <div class="stat-label">Users</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEO Tools Section -->
+        <section class="section tools-section">
+            <div class="container">
+                <h2 class="section-title">Our SEO Toolkit</h2>
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <div class="tool-icon"><i class="fa-solid fa-globe"></i></div>
+                        <h3>Domain Overview</h3>
+                        <p>Analyze any domain's organic and paid search performance.</p>
+                        <a href="domain-overview.html" class="tool-link">Explore <i
+                                class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon"><i class="fa-solid fa-key"></i></div>
+                        <h3>Keyword Research</h3>
+                        <p>Find the best keywords to drive traffic to your website.</p>
+                        <a href="keyword-research.html" class="tool-link">Explore <i
+                                class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon"><i class="fa-solid fa-stethoscope"></i></div>
+                        <h3>Site Audit</h3>
+                        <p>Get a comprehensive health check of your website's SEO.</p>
+                        <a href="#" class="tool-link">Explore <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon"><i class="fa-solid fa-link"></i></div>
+                        <h3>Backlink Analytics</h3>
+                        <p>Track and analyze your competitor's backlink profiles.</p>
+                        <a href="#" class="tool-link">Explore <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Articles (Blog Integration) -->
+        <section class="section" style="background: var(--surface);">
+            <div class="container">
+                <div class="flex-between">
+                    <h2 class="section-title-left">Marketing Insights</h2>
+                    <a href="blog.html" class="btn btn-outline btn-sm">View All Blog</a>
+                </div>
+                <div class="article-grid" id="featured-articles">
+                    <!-- Populated by main.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <div class="container">
+            <section class="newsletter-section">
+                <h2>Ready to grow your visibility?</h2>
+                <p style="color: var(--text-muted); margin-top: 0.5rem;">Join 10+ million marketers who use Velora for
+                    their SEO success.</p>
+                <form class="newsletter-form"
+                    onsubmit="event.preventDefault(); alert('Subscribed successfully! (UI Demo)'); this.reset();">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-primary">Start Now</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="index.html" class="logo">Velora<span>.</span></a>
+                    <p>The world's leading online visibility management SaaS platform. All the tools you need in one
+                        place.</p>
+                </div>
+                <div class="footer-links-wrapper">
+                    <h4 class="footer-heading">Tools</h4>
+                    <div class="footer-links">
+                        <a href="domain-overview.html">Domain Overview</a>
+                        <a href="keyword-research.html">Keyword Research</a>
+                        <a href="#">Site Audit</a>
+                        <a href="#">Backlink Analytics</a>
+                        <a href="#">Rank Tracking</a>
+                    </div>
+                </div>
+                <div class="footer-links-wrapper">
+                    <h4 class="footer-heading">Company</h4>
+                    <div class="footer-links">
+                        <a href="about.html">About Us</a>
+                        <a href="contact.html">Contact</a>
+                        <a href="blog.html">Blog</a>
+                        <a href="admin.html">Admin Dashboard</a>
+                        <a href="privacy.html">Privacy Policy</a>
+                        <a href="disclaimer.html">Disclaimer</a>
+                        <a href="terms.html">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Velora Inc. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/data.js?v=1.0"></script>
+    <script src="js/script.js?v=1.0"></script>
+</body>
+
+</html>
